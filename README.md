@@ -169,7 +169,7 @@ piG3 = g(1,180,60,2) where
                in y : g(10*q*i*(2*i-1),10*u*(q*(5*i-2)+r-y*t),t*u,i+1)
 ```
 
-Wersje w innych językach są implementacjami powyższego algorytmu.
+Wersje w innych językach są implementacjami powyższej funkcji.
 
 ### Ada
 W języku Ada, z braku obliczeń leniwych, wykorzystano współbieżność. Zadanie **Pi** wykonuje obliczenia w nieskończonej pętli **loop ... end loop**. Po wyznaczeniu kolejnej cyfry zadanie zostaje wstrzymane i czeka na spotkanie w wejściu **Get** aby oddać wyliczoną cyfrę. Gdyby była potrzeba przerwania zadania **Pi**, można to zrobić instrukcją **abort**.
