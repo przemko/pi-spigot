@@ -158,6 +158,7 @@ Więcej o algorytmie można przeczytać w artykule [1].
 Algorytm wymaga arytmetyki dowolnej precyzji [3] i został zaimplementowany w wybranych językach programowania:
 
 * [Ada](ada)
+* [C](c)
 * [Haskell](haskell)
 * [Prolog](prolog)
 * [Python](python)
@@ -182,6 +183,15 @@ for I in 1 .. 10_000 loop
 end loop;
 abort Spigot.Pi;
 ```
+
+### C
+Funkcja **digit()** za każdym wywołaniem wylicza kolejną cyfrę rozwinięcia liczby &pi;. Stan obliczeń między jej kolejnymi wywołaniami przechowywany jest w globalnych zmiennych **q**, **r**, **t**, **i**.
+
+Aby wydrukować tylko pierwszych 10000 cyfr liczby &pi; można wykonać następującą pętlę **for**:
+```c
+for(int j=0; j<10000; j++)
+   printf("%lu", digit());
+``` 
 
 ### Haskell
 Funkcja rekurencyjna **g** nie kończy swoich obliczeń i generuje nieskończenie długą listę kolejnych cyfr rozwinięcia liczby &pi;. Dzięki leniwemu obliczaniu kolejna cyfra jest wyliczana dopiero wtedy gdy będzie potrzebna jej wartość. Do tego czasu obliczanie funkcji jest wstrzymane. 
