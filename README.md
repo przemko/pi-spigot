@@ -5,9 +5,9 @@ Obliczanie kolejnych cyfr dziesiętnego rozwinięcia liczby Pi algorytmem Spigot
 Algorytm wymaga arytmetyki dowolnej precyzji [2] i został zaimplementowany w wybranych językach programowania:
 
 * [Ada](ada)
-* Haskell
-* Prolog
-* Python
+* [Haskell](haskell)
+* [Prolog](prolog)
+* [Python](python)
 
 Wersja w języku **Haskell** pochodzi z artykułu [1]:
 ```haskell
