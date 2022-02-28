@@ -147,7 +147,8 @@ Pierwszych 10000 cyfr liczby &pi; wyliczonych zamieszczonymi w repozytorium prog
 ```
 
 ## Algorytm
-![autor: [Chris 73](https://en.wikipedia.org/wiki/User:Chris_73)](pic/Water_drop_animation_enhanced_small.gif)
+![woda kapiąca z kranu](pic/Water_drop_animation_enhanced_small.gif)
+autor: [Chris 73](https://en.wikipedia.org/wiki/User:Chris_73)
 
 W obliczeniach zastosowano algorytm **Spigot** (kurek). Jego nazwa oddaje to, że kolejno wyznaczane cyfry "wyciekają" z niego i nie są używane do wyliczenia następnych cyfr.  
 
