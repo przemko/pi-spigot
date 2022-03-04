@@ -160,6 +160,7 @@ Algorytm wymaga arytmetyki dowolnej precyzji [3] i został zaimplementowany w wy
 * [Ada](ada)
 * [C](c)
 * [Haskell](haskell)
+* [Oz](oz)
 * [Prolog](prolog)
 * [Python](python)
 
@@ -200,6 +201,12 @@ Aby wyliczyć tylko pierwszych 10000 cyfr liczby &pi; można skorzystać z funkc
 ```haskell
 take 10000 pi_spigot
 ```
+
+### Oz
+Leniwa funkcja **Pi** wylicza nieskończoną listę kolejnych cyfr liczy &pi;. Przy użyciu funkcji **List.take** można pobrać dowolnie długi początkowy fragment tej listy.
+
+#### Uwaga
+Program w języku **Oz** dla większej liczby drukowanych cyfr (np. 30000) przerywa swoje działanie nie sygnalizując powodu.
 
 ### Prolog
 W programie zastosowano korutynę. Predykat **pi/5** wylicza kolejne cyfry liczby &pi; umieszczając je w strumieniu danych zrealizowanym otwartą listą przekazaną piątym argumentem. Kolejna cyfra pojawia się na otwartej liście **OUT** dopiero wtedy, gdy przestanie być ona nieukonkretnioną zmienną i będzie pasować do wzorca **[Digit | OUT_]**. Do tego czasu obliczenia wstrzymane są predykatem **freeze/2**. 
