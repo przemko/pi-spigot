@@ -146,6 +146,10 @@ Pierwszych 10000 cyfr liczby &pi; wyliczonych zamieszczonymi w repozytorium prog
 
 ```
 
+Kliknij na poniższym obrazku aby posłuchać piosenki Kate Bush o liczbie &pi; i wyliczaniu jej kolejnych cyfr:
+
+[![Kate Bush, Pi](https://img.youtube.com/vi/W8RE2NyAiJg/hqdefault.jpg)](https://www.youtube.com/watch?v=W8RE2NyAiJg)
+
 ## Algorytm
 ![woda kapiąca z kranu](pic/Water_drop_animation_enhanced_small.gif)
 autor: [Chris 73](https://en.wikipedia.org/wiki/User:Chris_73)
