@@ -25,7 +25,9 @@ unsigned long digit()
   mpz_add(y, y, acc);		// y = q(27i-12)+5r
   mpz_mul_ui(acc, t, 5);	// acc = 5t
   mpz_fdiv_q(y, y, acc);	// y = (q(27i-12)+5r)/(5t)
-  
+ 
+  unsigned long d = mpz_get_ui(y);
+
   mpz_t q2; mpz_init(q2);
   mpz_t r2; mpz_init(r2);
 
@@ -51,7 +53,14 @@ unsigned long digit()
   mpz_add_ui(i, i, 1);		// i = i+1
   
   mpz_set(q, q2); mpz_set(r, r2);
-  return mpz_get_ui(y);
+
+  mpz_clear(u);
+  mpz_clear(y);
+  mpz_clear(acc);
+  mpz_clear(q2);
+  mpz_clear(r2);
+
+  return d;
 }
 
 int main(void)
